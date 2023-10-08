@@ -1,0 +1,27 @@
+div.main{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+}
+
+div.innermain{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius: 50%;
+}
+
+div.innermain:nth-child(1){
+    background-color: red;
+
+}
+
+div:nth-child(2){
+    background-color:yellow;
+
+}
+div:nth-child(3){
+    background-color:green;
+
+}
